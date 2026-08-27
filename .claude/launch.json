@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "flight-price-dashboard",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd flight_price_decision_tree_lab && streamlit run dashboard/app.py --server.port 8531 --server.headless true"],
+      "port": 8531
+    }
+  ]
+}

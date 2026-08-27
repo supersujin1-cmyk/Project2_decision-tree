@@ -1,0 +1,127 @@
+{
+  "cat_cols": [
+    "airline",
+    "source_city",
+    "destination_city",
+    "departure_time",
+    "arrival_time",
+    "stops",
+    "class"
+  ],
+  "num_cols": [
+    "duration",
+    "days_left"
+  ],
+  "feature_columns": [
+    "duration",
+    "days_left",
+    "airline_AirAsia",
+    "airline_Air_India",
+    "airline_GO_FIRST",
+    "airline_Indigo",
+    "airline_SpiceJet",
+    "airline_Vistara",
+    "source_city_Bangalore",
+    "source_city_Chennai",
+    "source_city_Delhi",
+    "source_city_Hyderabad",
+    "source_city_Kolkata",
+    "source_city_Mumbai",
+    "destination_city_Bangalore",
+    "destination_city_Chennai",
+    "destination_city_Delhi",
+    "destination_city_Hyderabad",
+    "destination_city_Kolkata",
+    "destination_city_Mumbai",
+    "departure_time_Afternoon",
+    "departure_time_Early_Morning",
+    "departure_time_Evening",
+    "departure_time_Late_Night",
+    "departure_time_Morning",
+    "departure_time_Night",
+    "arrival_time_Afternoon",
+    "arrival_time_Early_Morning",
+    "arrival_time_Evening",
+    "arrival_time_Late_Night",
+    "arrival_time_Morning",
+    "arrival_time_Night",
+    "stops_one",
+    "stops_two_or_more",
+    "stops_zero",
+    "class_Business",
+    "class_Economy"
+  ],
+  "categories": {
+    "airline": [
+      "AirAsia",
+      "Air_India",
+      "GO_FIRST",
+      "Indigo",
+      "SpiceJet",
+      "Vistara"
+    ],
+    "source_city": [
+      "Bangalore",
+      "Chennai",
+      "Delhi",
+      "Hyderabad",
+      "Kolkata",
+      "Mumbai"
+    ],
+    "destination_city": [
+      "Bangalore",
+      "Chennai",
+      "Delhi",
+      "Hyderabad",
+      "Kolkata",
+      "Mumbai"
+    ],
+    "departure_time": [
+      "Afternoon",
+      "Early_Morning",
+      "Evening",
+      "Late_Night",
+      "Morning",
+      "Night"
+    ],
+    "arrival_time": [
+      "Afternoon",
+      "Early_Morning",
+      "Evening",
+      "Late_Night",
+      "Morning",
+      "Night"
+    ],
+    "stops": [
+      "one",
+      "two_or_more",
+      "zero"
+    ],
+    "class": [
+      "Business",
+      "Economy"
+    ]
+  },
+  "numeric_ranges": {
+    "duration": {
+      "min": 0.83,
+      "max": 47.75,
+      "median": 11.25
+    },
+    "days_left": {
+      "min": 1.0,
+      "max": 49.0,
+      "median": 26.0
+    }
+  },
+  "test_metrics": {
+    "MAE": 2828.1061803423477,
+    "RMSE": 4989.074892595403,
+    "R2": 0.9517856873537583
+  },
+  "hyperparameters": {
+    "max_depth": 8,
+    "min_samples_leaf": 200,
+    "random_state": 42
+  }
+}

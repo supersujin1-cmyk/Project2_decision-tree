@@ -1,0 +1,10 @@
+variable,type,split_rule,rss,sse_reduction
+class,categorical,"in ('Business',)",18620827578317.047,136014074116810.95
+airline,categorical,"in ('Air_India', 'Vistara')",122589446827158.66,32045454867969.344
+duration,numeric,<= 9.290,145973487151869.12,8661414543258.875
+stops,categorical,"in ('one',)",148454908590547.16,6179993104580.844
+arrival_time,categorical,"in ('Afternoon', 'Early_Morning', 'Late_Night')",152718691107995.88,1916210587132.125
+days_left,numeric,<= 14.500,153014504361708.38,1620397333419.625
+departure_time,categorical,"in ('Afternoon', 'Late_Night')",154125162814408.75,509738880719.25
+destination_city,categorical,"in ('Delhi',)",154208250708052.72,426650987075.28125
+source_city,categorical,"in ('Delhi', 'Hyderabad')",154306073437524.88,328828257603.125
